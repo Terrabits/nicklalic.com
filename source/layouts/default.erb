@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%= partial 'partials/head' %>
+  <body onload="body_onload()">
+    <%= partial 'partials/navbar' %>
+
+    <div class="main container">
+      <%= yield %>
+    </div>
+
+  </body>
+</html>
